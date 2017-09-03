@@ -90,12 +90,12 @@ public class NotesPresenterTest {
 
     @Test
     public void clickOnFab_ShowsAddsNoteUi() {
-        fail("Implement in step 6");
+        //fail("Implement in step 6");
 //        // When adding a new note
-//        mNotesPresenter.addNewNote();
+        mNotesPresenter.addNewNote();
 //
 //        // Then add note UI is shown
-//        verify(mNotesView).showAddNote();
+        verify(mNotesView).showAddNote();
     }
 
     @Test
